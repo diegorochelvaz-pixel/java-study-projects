@@ -1,7 +1,5 @@
 package com.Pos.Diego;
 
-import java.util.Random;
-
 public class Compressor extends Maquina{
     public Compressor(String nome, int temperatura, double pressao) {
         super(nome, temperatura, pressao);

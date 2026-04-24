@@ -1,7 +1,5 @@
 package com.Pos.Diego;
 
-import java.util.Random;
-
 public class Fresa extends Maquina{
 
     public Fresa(String nome, int temperatura, double pressao) {

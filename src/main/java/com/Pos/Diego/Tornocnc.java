@@ -1,7 +1,5 @@
 package com.Pos.Diego;
 
-import java.util.Random;
-
 public class Tornocnc extends Maquina{
     public Tornocnc(String nome, int temperatura, double pressao) {
         super(nome, temperatura, pressao);
