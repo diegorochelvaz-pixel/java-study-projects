@@ -1,0 +1,24 @@
+package com.Pos.Diego;
+
+import java.util.Random;
+
+public class Fresa extends Maquina{
+
+    public Fresa(String nome, int temperatura, double pressao) {
+        super(nome, temperatura, pressao);
+    }
+
+    public void fresar() {
+        System.out.println(getNome() + " esta fresando superfície.");
+
+    }
+
+    @Override
+    public void run(){
+        ligar();
+        fresar();
+        desligar();
+        System.out.println("\n");
+    }
+
+}
