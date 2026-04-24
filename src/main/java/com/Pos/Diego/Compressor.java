@@ -6,7 +6,7 @@ public class Compressor extends Maquina{
     }
 
     public void comprimirAr(){
-        System.out.println(getNome() + " começou a compressão de ar");
+        System.out.println(getNome() + " começou a compressão de ar" + "\n");
     }
 
     public void run(){

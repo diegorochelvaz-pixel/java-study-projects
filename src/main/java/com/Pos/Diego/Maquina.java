@@ -2,7 +2,7 @@ package com.Pos.Diego;
 
 import java.util.Random;
 
-public class Maquina implements Equipamento, Runnable {
+public abstract class Maquina implements Equipamento, Runnable {
     private String nome;
     private int temperatura;
     private double pressao;
@@ -57,15 +57,6 @@ public class Maquina implements Equipamento, Runnable {
     }
 
     @Override
-    public void run() {
-        Random random = new Random();
+    public abstract void run();
 
-        try {
-            Thread.sleep(random.nextInt(5000));
-        } catch (InterruptedException e) {
-            System.out.println("Thread interrompida");
-
-        }
-
-    }
 }

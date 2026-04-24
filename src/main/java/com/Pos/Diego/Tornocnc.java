@@ -6,7 +6,7 @@ public class Tornocnc extends Maquina{
     }
 
     public void usinar(){
-        System.out.println(getNome() + " está usinando um eixo.");
+        System.out.println(getNome() + " está usinando um eixo" + "\n");
 
     }
 

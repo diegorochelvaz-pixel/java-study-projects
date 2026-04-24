@@ -7,7 +7,7 @@ public class Fresa extends Maquina{
     }
 
     public void fresar() {
-        System.out.println(getNome() + " esta fresando superfície.");
+        System.out.println(getNome() + " esta fresando superfície" + "\n");
 
     }
 
